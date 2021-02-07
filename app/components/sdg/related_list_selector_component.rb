@@ -53,4 +53,8 @@ class SDG::RelatedListSelectorComponent < ApplicationComponent
         goal_or_target.code
       end
     end
+
+    def relatable_name
+      f.object.model_name.human.downcase
+    end
 end
