@@ -2,10 +2,10 @@ require_dependency Rails.root.join("lib", "remote_census_api").to_s
 
 class RemoteCensusApi
   DOCUMENT_TYPES = {
-    1 => 'D',
-    2 => 'P',
-    3 => 'T',
-    4 => 'X'
+    '1' => 'D',
+    '2' => 'P',
+    '3' => 'T',
+    '4' => 'X'
   }.freeze
 
   class Response
