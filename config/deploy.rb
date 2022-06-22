@@ -29,6 +29,7 @@ set :keep_releases, 5
 set :local_user, ENV["USER"]
 
 set :passenger_rvm_ruby_version
+set :passenger_restart_with_touch, true
 
 set :puma_conf, "#{release_path}/config/puma/#{fetch(:rails_env)}.rb"
 
