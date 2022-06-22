@@ -52,7 +52,7 @@ namespace :deploy do
   after :published, "passenger:restart"
   before "passenger:restart", "puma:restart"
   before "passenger:restart", "delayed_job:restart"
-  # before "passenger:restart", "puma:start"
+  before "passenger:restart", "puma:start"
 
   after :finished, "refresh_sitemap"
 
