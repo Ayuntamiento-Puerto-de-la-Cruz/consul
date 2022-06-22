@@ -46,10 +46,9 @@ namespace :deploy do
 
   after :publishing, "setup_puma"
 
-  after :published, "deploy:restart"
-  before "deploy:restart", "puma:restart"
-  before "deploy:restart", "delayed_job:restart"
-  before "deploy:restart", "puma:start"
+  after :published, "puma:stop"
+  after :published, "puma:start"
+  after :published, "delayed_job:restart"
 
   after :finished, "refresh_sitemap"
 
