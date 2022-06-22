@@ -28,9 +28,6 @@ set :keep_releases, 5
 
 set :local_user, ENV["USER"]
 
-set :passenger_rvm_ruby_version
-set :passenger_restart_with_touch, true
-
 set :puma_conf, "#{release_path}/config/puma/#{fetch(:rails_env)}.rb"
 
 set :delayed_job_workers, 2
@@ -49,10 +46,10 @@ namespace :deploy do
 
   after :publishing, "setup_puma"
 
-  after :published, "passenger:restart"
-  before "passenger:restart", "puma:restart"
-  before "passenger:restart", "delayed_job:restart"
-  before "passenger:restart", "puma:start"
+  after :published, "deploy:restart"
+  before "deploy:restart", "puma:restart"
+  before "deploy:restart", "delayed_job:restart"
+  before "deploy:restart", "puma:start"
 
   after :finished, "refresh_sitemap"
 
