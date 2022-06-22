@@ -219,7 +219,7 @@ es:
       conditions: Condiciones de uso
       consul: aplicación CONSUL
       consul_url: https://github.com/consul/consul
-      email1: soporteparticipapuertodelacruz@usabi.es
+      email1: soporteparticipapuertodelacruz@usabi-staging.es
       email2: participa@puertodelacruz.es
       contact_us: "Para asistencia técnica: \n%{email1} \n%{email2}"
       copyright: CONSUL, %{year}
