@@ -22,6 +22,7 @@ Rails.application.routes.draw do
   draw :proposal
   draw :related_content
   draw :sdg
+  draw :sua
   draw :sdg_management
   draw :tag
   draw :user
