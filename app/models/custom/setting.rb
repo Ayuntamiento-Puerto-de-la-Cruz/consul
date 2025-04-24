@@ -27,6 +27,7 @@ class Setting
         "feature.valuation_comment_notification": true,
         "feature.graphql_api": true,
         "feature.sdg": false,
+        "feature.sua": false,
         "homepage.widgets.feeds.debates": true,
         "homepage.widgets.feeds.processes": true,
         "homepage.widgets.feeds.proposals": true,
