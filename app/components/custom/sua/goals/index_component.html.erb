@@ -1,0 +1,11 @@
+<% provide(:title) { title } %>
+
+<main class="sdg-goals-index">
+  <header class="section-header">
+    <h1><%= title %></h1>
+  </header>
+
+  <%= render Shared::BannerComponent.new("sau") %>
+
+  <%= link_list(*goal_links, class: "sdg-goal-list") %>
+</main>
