@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_23_100638) do
+ActiveRecord::Schema.define(version: 2025_04_23_103349) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_trgm"
@@ -1447,6 +1447,31 @@ ActiveRecord::Schema.define(version: 2021_01_23_100638) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["process_type", "process_id"], name: "index_stats_versions_on_process_type_and_process_id"
+  end
+
+  create_table "sua_goals", force: :cascade do |t|
+    t.integer "code", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["code"], name: "index_sua_goals_on_code", unique: true
+  end
+
+  create_table "sua_subgoals", force: :cascade do |t|
+    t.bigint "sua_goal_id"
+    t.string "code", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["code"], name: "index_sua_subgoals_on_code", unique: true
+    t.index ["sua_goal_id"], name: "index_sua_subgoals_on_sua_goal_id"
+  end
+
+  create_table "sua_targets", force: :cascade do |t|
+    t.bigint "sua_subgoal_id"
+    t.string "code", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["code"], name: "index_sua_targets_on_code", unique: true
+    t.index ["sua_subgoal_id"], name: "index_sua_targets_on_sua_subgoal_id"
   end
 
   create_table "taggings", id: :serial, force: :cascade do |t|
