@@ -1,4 +1,4 @@
-class CreateSuaTargets < ActiveRecord::Migration[5.2]
+class CreateSUATargets < ActiveRecord::Migration[5.2]
   def change
     create_table :sua_targets do |t|
       t.references :sua_subgoal

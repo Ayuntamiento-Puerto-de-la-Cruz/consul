@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2025_04_23_103349) do
+ActiveRecord::Schema.define(version: 2025_04_27_184301) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_trgm"
@@ -1456,6 +1456,32 @@ ActiveRecord::Schema.define(version: 2025_04_23_103349) do
     t.index ["code"], name: "index_sua_goals_on_code", unique: true
   end
 
+  create_table "sua_managers", force: :cascade do |t|
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_sua_managers_on_user_id", unique: true
+  end
+
+  create_table "sua_phases", force: :cascade do |t|
+    t.integer "kind", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["kind"], name: "index_sua_phases_on_kind", unique: true
+  end
+
+  create_table "sua_relations", force: :cascade do |t|
+    t.string "related_sua_type"
+    t.bigint "related_sua_id"
+    t.string "relatable_type"
+    t.bigint "relatable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["relatable_type", "relatable_id"], name: "index_sua_relations_on_relatable_type_and_relatable_id"
+    t.index ["related_sua_id", "related_sua_type", "relatable_id", "relatable_type"], name: "sua_relations_unique", unique: true
+    t.index ["related_sua_type", "related_sua_id"], name: "index_sua_relations_on_related_sua_type_and_related_sua_id"
+  end
+
   create_table "sua_subgoals", force: :cascade do |t|
     t.bigint "sua_goal_id"
     t.string "code", null: false
@@ -1747,6 +1773,7 @@ ActiveRecord::Schema.define(version: 2025_04_23_103349) do
   add_foreign_key "related_content_scores", "related_contents"
   add_foreign_key "related_content_scores", "users"
   add_foreign_key "sdg_managers", "users"
+  add_foreign_key "sua_managers", "users"
   add_foreign_key "users", "geozones"
   add_foreign_key "valuators", "users"
 end
