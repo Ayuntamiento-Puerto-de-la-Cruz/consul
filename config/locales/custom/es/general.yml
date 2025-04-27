@@ -259,6 +259,7 @@ es:
         notifications: Notificaciones
         no_notifications: "No tienes notificaciones nuevas"
       sdg: "ODS"
+      sua: "AU"
   notifications:
     index:
       empty_notifications: No tienes notificaciones nuevas.
