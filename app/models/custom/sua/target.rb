@@ -15,8 +15,6 @@ class SUA::Target < ApplicationRecord
     )
   end
 
-  private
-
   def code_key
     code.tr('.', '_')
   end

@@ -6,7 +6,7 @@ class SUA::Subgoal < ApplicationRecord
 
   has_many :targets,
            class_name: 'SUA::Target',
-           foreign_key: 'sau_subgoal_id',
+           foreign_key: 'sua_subgoal_id',
            dependent: :destroy
 
   validates :code, presence: true, uniqueness: true,
@@ -21,9 +21,7 @@ class SUA::Subgoal < ApplicationRecord
     I18n.t("sua.goals.goal_#{sua_goal.code}.subgoals.subgoal_#{code_key}.description")
   end
 
-  private
-
   def code_key
-    code.tr('.', '_')
+    code.tr(".", "_")
   end
 end
