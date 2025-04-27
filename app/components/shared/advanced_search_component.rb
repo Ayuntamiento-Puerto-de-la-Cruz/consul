@@ -41,4 +41,17 @@ class Shared::AdvancedSearchComponent < ApplicationComponent
     def sdg?
       SDG::ProcessEnabled.new(controller_path).enabled?
     end
+
+    # CUSTOM: no se carga en custom
+    def sua_goal_options
+      super(advanced_search[:sua_goal])
+    end
+
+    def sua_target_options
+      super(advanced_search[:sua_target])
+    end
+
+    def sua?
+      SUA::ProcessEnabled.new(controller_path).enabled?
+    end
 end
