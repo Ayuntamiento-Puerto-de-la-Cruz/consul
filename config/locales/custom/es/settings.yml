@@ -225,3 +225,15 @@ es:
         budgets_description: Permitir alineamiento de los Objetivos de Desarrollo Sostenible en presupuestos participativos
         legislation: Alineamiento ODS en legislación colaborativa
         legislation_description: Permitir alineamiento de los Objetivos de Desarrollo Sostenible en legislación colaborativa
+    sua:
+      process:
+        debates: Alineamiento AU en debates
+        debates_description: Permitir alineamiento de los Objetivos de la Agenda urbana en debates
+        proposals: Alineamiento AU en propuestas
+        proposals_description: Permitir alineamiento de los Objetivos de la Agenda urbana en propuestas
+        polls: Alineamiento AU en votaciones
+        polls_description: Permitir alineamiento de los Objetivos de la Agenda urbana en votaciones
+        budgets: Alineamiento AU en presupuestos participativos
+        budgets_description: Permitir alineamiento de los Objetivos de la Agenda urbana en presupuestos participativos
+        legislation: Alineamiento AU en legislación colaborativa
+        legislation_description: Permitir alineamiento de los Objetivos de la Agenda urbana en legislación colaborativa

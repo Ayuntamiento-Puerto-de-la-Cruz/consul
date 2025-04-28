@@ -1,0 +1,8 @@
+<% if feature?(:sua) %>
+  <h2><%= t("admin.settings.index.sua.title") %></h2>
+  <%= render "featured_settings_table", features: @sua_settings, tab: "#tab-sua-configuration" %>
+<% else %>
+  <div class="callout primary">
+    <%= t("admin.settings.index.sua.how_to_enable") %>
+  </div>
+<% end %>
