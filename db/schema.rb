@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2025_04_27_184301) do
+ActiveRecord::Schema.define(version: 2025_04_28_115426) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_trgm"
@@ -1480,6 +1480,14 @@ ActiveRecord::Schema.define(version: 2025_04_27_184301) do
     t.index ["relatable_type", "relatable_id"], name: "index_sua_relations_on_relatable_type_and_relatable_id"
     t.index ["related_sua_id", "related_sua_type", "relatable_id", "relatable_type"], name: "sua_relations_unique", unique: true
     t.index ["related_sua_type", "related_sua_id"], name: "index_sua_relations_on_related_sua_type_and_related_sua_id"
+  end
+
+  create_table "sua_reviews", force: :cascade do |t|
+    t.string "relatable_type"
+    t.bigint "relatable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["relatable_type", "relatable_id"], name: "index_sua_reviews_on_relatable_type_and_relatable_id", unique: true
   end
 
   create_table "sua_subgoals", force: :cascade do |t|
