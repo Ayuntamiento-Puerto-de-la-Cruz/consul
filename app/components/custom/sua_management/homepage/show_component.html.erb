@@ -4,7 +4,7 @@
   <section class="phase-cards <%= phase.kind %>-cards">
     <header>
       <h3><%= phase.title %></h3>
-      <%= link_to create_card_text(phase), new_sua_management_sdg_phase_widget_card_path(phase) %>
+      <%= link_to create_card_text(phase), new_sua_management_sua_phase_widget_card_path(phase) %>
     </header>
 
     <%= render Admin::Widget::Cards::TableComponent.new(

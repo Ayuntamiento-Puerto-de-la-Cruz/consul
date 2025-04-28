@@ -41,7 +41,7 @@
 
       <% if feature?(:sua) && (current_user.administrator? || current_user.sua_manager?) %>
         <li>
-          <%= link_to t("sdg_management.header.title"), sua_management_root_path %>
+          <%= link_to t("sua_management.header.title"), sua_management_root_path %>
         </li>
       <% end %>
     </ul>

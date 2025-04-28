@@ -52,3 +52,5 @@ end
 ].each do |code|
   SUA::Target.where(code: code, sua_subgoal: SUA::Subgoal.find_by!(code: code.split(".").first(2).join("."))).first_or_create!
 end
+
+SUA::Phase.kinds.values.each { |kind| SUA::Phase.where(kind: kind).first_or_create! }
