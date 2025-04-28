@@ -61,6 +61,19 @@
         </div>
       <% end %>
 
+      <% if sua? %>
+        <div class="filter">
+          <label for="advanced_search_goal"><%= t("shared.advanced_search.sua_goal") %></label>
+          <%= select_tag("advanced_search[sua_goal]", sua_goal_options,
+                        include_blank: t("shared.advanced_search.sua_goal_blank")) %>
+        </div>
+        <div class="filter">
+          <label for="advanced_search_target"><%= t("shared.advanced_search.sua_target") %></label>
+          <%= select_tag("advanced_search[sua_target]", sua_target_options,
+                        include_blank: t("shared.advanced_search.sua_target_blank")) %>
+        </div>
+      <% end %>
+
       <div class="submit">
         <%= submit_tag t("shared.advanced_search.search"), class: "button expanded" %>
       </div>

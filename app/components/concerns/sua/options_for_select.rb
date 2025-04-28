@@ -6,8 +6,7 @@ module SUA::OptionsForSelect
   end
 
   def sua_target_options(selected_code = nil)
-    targets = SUA::Target.all + SUA::LocalTarget.all
-
+    targets = SUA::Target.all
     options_from_collection_for_select(targets.sort, :code, :code, selected_code)
   end
 end

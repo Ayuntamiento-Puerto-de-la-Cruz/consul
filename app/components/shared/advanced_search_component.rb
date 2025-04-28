@@ -1,5 +1,6 @@
 class Shared::AdvancedSearchComponent < ApplicationComponent
   include SDG::OptionsForSelect
+  include SUA::OptionsForSelect
 
   private
 
