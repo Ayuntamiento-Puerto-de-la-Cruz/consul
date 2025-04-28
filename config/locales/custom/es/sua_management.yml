@@ -1,0 +1,29 @@
+es:
+  sua_management:
+    actions:
+      edit: "Asignar objetivos y metas"
+    header:
+      title: "Contenido AU"
+    homepage:
+      title: "Configuración de la página de inicio"
+      create_card: "Crear tarjeta de %{phase}"
+      no_cards: "No hay tarjetas para esta fase"
+    menu:
+      budget_investments: "Presupuestos participativos"
+      debates: "Debates"
+      legislation_processes: "Legislación colaborativa"
+      polls: "Votaciones"
+      proposals: "Propuestas"
+      sua_content: "Objetivos y Metas"
+      sua_homepage: "Página de inicio AU"
+    relations:
+      index:
+        filter: "Filtro"
+        filters:
+          all: "Todos"
+          pending_sua_review: "Pendientes"
+          sua_reviewed: "Marcados como revisados"
+      update:
+        notice: "%{relatable} actualizado correctamente"
+      update_and_review:
+        notice: "%{relatable} actualizado correctamente y marcado como revisado"

@@ -23,6 +23,11 @@ module ActionDispatch::Routing::UrlFor
     namespaced_polymorphic_path(:sdg_management, resource, options)
   end
 
+  def sua_management_polymorphic_path(resource, options = {})
+    namespaced_polymorphic_path(:sua_management, resource, options)
+  end
+
+
   def namespaced_polymorphic_path(namespace, resource, options = {})
     if %w[Budget::Group Budget::Heading Poll::Booth Poll::BoothAssignment Poll::Officer
           Poll::Question Poll::Question::Answer::Video Poll::Shift

@@ -115,6 +115,8 @@
 //= require_tree ./sdg
 //= require_tree ./sdg_management
 //= require_tree ./sua
+//= require_tree ./sua_management
+
 
 var initialize_modules = function() {
   "use strict";
@@ -170,7 +172,7 @@ var initialize_modules = function() {
   App.SDGRelatedListSelector.initialize();
   App.SDGManagementRelationSearch.initialize();
   App.SUARelatedListSelector.initialize();
-
+  App.SUAManagementRelationSearch.initialize();
 };
 
 var destroy_non_idempotent_modules = function() {

@@ -24,6 +24,7 @@ Rails.application.routes.draw do
   draw :sdg
   draw :sua
   draw :sdg_management
+  draw :sua_management
   draw :tag
   draw :user
   draw :valuation

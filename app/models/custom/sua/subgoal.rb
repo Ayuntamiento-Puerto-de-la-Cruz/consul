@@ -24,4 +24,8 @@ class SUA::Subgoal < ApplicationRecord
   def code_key
     code.tr(".", "_")
   end
+
+  def code_and_title
+    "#{code}. #{title}"
+  end
 end
