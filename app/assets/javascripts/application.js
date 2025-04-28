@@ -114,6 +114,7 @@
 //= require datepicker
 //= require_tree ./sdg
 //= require_tree ./sdg_management
+//= require_tree ./sua
 
 var initialize_modules = function() {
   "use strict";
@@ -168,6 +169,8 @@ var initialize_modules = function() {
   App.Datepicker.initialize();
   App.SDGRelatedListSelector.initialize();
   App.SDGManagementRelationSearch.initialize();
+  App.SUARelatedListSelector.initialize();
+
 };
 
 var destroy_non_idempotent_modules = function() {

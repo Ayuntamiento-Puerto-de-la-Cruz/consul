@@ -5,10 +5,10 @@ module SUA::Relatable
     has_many :sua_relations, as: :relatable, dependent: :destroy, class_name: "SUA::Relation"
 
 
-    has_many SUA::Goal.constantize.table_name.to_sym,
+    has_many "SUA::Goal".constantize.table_name.to_sym,
               through: :sua_relations,
               source: :related_sua,
-              source_type: SUA::Goal
+              source_type: "SUA::Goal"
 
     has_many :sua_global_targets,
              through: :sua_relations,
@@ -78,11 +78,11 @@ module SUA::Relatable
     target_codes, goal_codes = codes.tr(" ", "").split(",").partition { |code| code.include?(".") }
     local_targets_codes, global_targets_codes = target_codes.partition { |code| code.split(".")[2] }
     global_targets = global_targets_codes.map { |code| SUA::Target[code] }
-    goals = goal_codes.map { |code| SDG::Goal[code] }
+    goals = goal_codes.map { |code| SUA::Goal[code] }
 
     transaction do
       self.sua_global_targets = global_targets
-      self.sua_goals = (global_targets.map(&:goal) + local_targets.map(&:goal) + goals).uniq
+      self.sua_goals = (global_targets.map(&:goal) + goals).uniq
     end
   end
 end
