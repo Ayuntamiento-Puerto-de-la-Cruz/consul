@@ -6,7 +6,15 @@ class SUA::Goals::ShowComponent < ApplicationComponent
     @goal = goal
   end
 
+  def feeds
+    SUA::Widget::Feed.for_goal(goal)
+  end
+
   private
+
+    def processes_feed
+      feeds.find { |feed| feed.kind == "processes" }
+    end
 
     def heading
       safe_join([tag.span(code, class: "goal-code"), tag.span(split_title, class: "goal-title")], " ")
