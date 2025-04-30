@@ -1,15 +1,16 @@
 class SUA::Goals::IndexComponent < ApplicationComponent
-  attr_reader :goals
+  attr_reader :goals, :phases
   delegate :link_list, to: :helpers
 
-  def initialize(goals)
+  def initialize(goals, phases)
     @goals = goals
+    @phases = phases
   end
 
   private
 
     def title
-      t("sdg.goals.title")
+      t("sua.goals.title")
     end
 
     def goal_links

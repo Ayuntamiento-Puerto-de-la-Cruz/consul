@@ -5,7 +5,7 @@ class SUA::GoalsController < ApplicationController
 
   def index
     @goals = @goals.order(:code)
-    # @phases = SDG::Phase.accessible_by(current_ability).order(:kind)
+    @phases = SUA::Phase.accessible_by(current_ability).order(:kind)
   end
 
   def show
