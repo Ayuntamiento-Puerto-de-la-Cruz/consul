@@ -24,9 +24,7 @@ module SUA::Relatable
     end
 
     def by_sua_target(code)
-      if SUA::Target.find_by(code: code)
-        by_sua_related(:sua_global_targets, code)
-      end
+      by_sua_related(:sua_global_targets, code)
     end
 
     def by_sua_related(association, code)
