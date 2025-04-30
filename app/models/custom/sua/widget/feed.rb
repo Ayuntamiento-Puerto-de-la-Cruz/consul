@@ -8,7 +8,7 @@ class SUA::Widget::Feed
   end
 
   def items
-    feed.items.by_goal(goal.code)
+    feed.items.by_sua_goal(goal.code)
   end
 
   def self.for_goal(goal)

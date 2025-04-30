@@ -20,19 +20,4 @@ class SUA::Goals::IconComponent < ApplicationComponent
     def image_text
       goal.code_and_title
     end
-
-    # def folder
-    #   [*I18n.fallbacks[I18n.locale], "default"].find do |locale|
-    #     find_asset("sua/#{locale}/goal_#{code}.png")
-    #   end
-    # end
-
-    # def find_asset(path)
-    #   byebug
-    #   if Rails.application.assets
-    #     Rails.application.assets.find_asset(path)
-    #   else
-    #     Rails.application.assets_manifest.assets[path]
-    #   end
-    # end
 end
