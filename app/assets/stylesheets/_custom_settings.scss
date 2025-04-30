@@ -83,6 +83,7 @@ $input-height:      $line-height * 2;
 $icon-width: $line-height * 2;
 
 $sdg-icon-min-width: 40px;
+$sua-icon-min-width: 40px;
 
 $sdg-colors: (
   1: #e5243b,
@@ -102,6 +103,19 @@ $sdg-colors: (
   15: #56c02b,
   16: #00689d,
   17: #19486a
+);
+
+$sua-colors: (
+  1: #8cc043,
+  2: #0572b8,
+  3: #10aba0,
+  4: #862f5a,
+  5: #f39320,
+  6: #fdc018,
+  7: #ee71a9,
+  8: #947f3b,
+  9: #d4202a,
+  10: #932d8b
 );
 
 // 2. Foundation settings overrides
