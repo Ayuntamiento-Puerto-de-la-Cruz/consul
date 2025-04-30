@@ -7,7 +7,7 @@ class SUA::TagComponent < ApplicationComponent
 
   def text
     if goal_or_target.is_a?(SUA::Goal)
-      render SUA::Goals::IconComponent.new(goal_or_target)
+      render SUA::Goals::IconComponent.new(goal_or_target, true)
     else
       "#{SUA::Target.model_name.human} #{goal_or_target.code}"
     end

@@ -697,7 +697,7 @@ es:
         read_less: "Leer menos sobre %{goal}"
         targets:
           no_local_targets: Este objetivo no tiene metas localizadas
-      title: "Agenda Urbana de Puerto de La Cruz"
+      title: "Agenda Urbana de Puerto de La Cruz 2030"
     related_list_selector:
       goal_identifier: "Agenda Urbana %{code}"
       goal_list: "Puedes seleccionar uno o varios objetivos con los que se alinea tu %{record}"

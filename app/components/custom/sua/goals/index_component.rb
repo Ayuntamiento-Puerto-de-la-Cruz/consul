@@ -22,6 +22,6 @@ class SUA::Goals::IndexComponent < ApplicationComponent
     end
 
     def icon(goal)
-      render SUA::Goals::IconComponent.new(goal)
+      render SUA::Goals::IconComponent.new(goal, true)
     end
 end
