@@ -5,7 +5,7 @@ module SUA::Relatable
     has_many :sua_relations, as: :relatable, dependent: :destroy, class_name: "SUA::Relation"
 
 
-    has_many "SUA::Goal".constantize.table_name.to_sym,
+    has_many :sua_goals,
               through: :sua_relations,
               source: :related_sua,
               source_type: "SUA::Goal"
@@ -19,11 +19,11 @@ module SUA::Relatable
   end
 
   class_methods do
-    def by_goal(code)
+    def by_sua_goal(code)
       by_sua_related(:sua_goals, code)
     end
 
-    def by_target(code)
+    def by_sua_target(code)
       if SUA::Target.find_by(code: code)
         by_sua_related(:sua_global_targets, code)
       end
@@ -76,13 +76,12 @@ module SUA::Relatable
 
   def related_sua_list=(codes)
     target_codes, goal_codes = codes.tr(" ", "").split(",").partition { |code| code.include?(".") }
-    local_targets_codes, global_targets_codes = target_codes.partition { |code| code.split(".")[2] }
-    global_targets = global_targets_codes.map { |code| SUA::Target[code] }
+    global_targets = target_codes.map { |code| SUA::Target[code] }
     goals = goal_codes.map { |code| SUA::Goal[code] }
 
     transaction do
       self.sua_global_targets = global_targets
-      self.sua_goals = (global_targets.map(&:goal) + goals).uniq
+      self.sua_goals = (global_targets.map { |target| target.sua_subgoal.sua_goal } + goals).uniq
     end
   end
 end

@@ -1,5 +1,5 @@
 class SUA::Target < ApplicationRecord
-  include SDG::Related
+  include SUA::Related
 
   belongs_to :sua_subgoal, class_name: "SUA::Subgoal"
 
@@ -13,6 +13,10 @@ class SUA::Target < ApplicationRecord
     ".subgoals.subgoal_#{sua_subgoal.code_key}" \
     ".targets.target_#{code_key}.title"
     )
+  end
+
+  def self.[](code)
+    find_by!(code: code)
   end
 
   def code_key

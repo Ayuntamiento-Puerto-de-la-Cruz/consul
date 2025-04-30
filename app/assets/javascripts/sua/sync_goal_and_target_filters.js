@@ -2,8 +2,8 @@
   "use strict";
   App.SUASyncGoalAndTargetFilters = {
     sync: function(form) {
-      var goal_filter = form.find("[name*=goal]");
-      var target_filter = form.find("[name*=target]");
+      var goal_filter = form.find("[name*=sua_goal]");
+      var target_filter = form.find("[name*=sua_target]");
 
       goal_filter.on("change", function() {
         if (this.value) {

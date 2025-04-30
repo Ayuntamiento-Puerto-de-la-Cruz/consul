@@ -26,7 +26,7 @@ class SUA::FilterLinksComponent < ApplicationComponent
     end
 
     def filter_text(goal_or_target)
-      t("sdg.#{i18n_namespace}.filter.link",
+      t("sua.#{i18n_namespace}.filter.link",
         resources: related_model.model_name.human(count: :other),
         code: goal_or_target.code)
     end
@@ -41,7 +41,7 @@ class SUA::FilterLinksComponent < ApplicationComponent
 
     def parameter_name
       if records.first.is_a?(SUA::Goal)
-        "goal"
+        "sua_goal"
       else
         "sua_target"
       end

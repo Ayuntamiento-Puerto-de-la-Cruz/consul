@@ -698,12 +698,6 @@ es:
         targets:
           no_local_targets: Este objetivo no tiene metas localizadas
       title: "Agenda Urbana de Puerto de La Cruz"
-      filter:
-        heading: "Filtros por Objetivo"
-        link: "Ver %{resources} del objetivo %{code}"
-        more:
-          one: "Un objetivo más"
-          other: "%{count} objetivos más"
     related_list_selector:
       goal_identifier: "Agenda Urbana %{code}"
       goal_list: "Puedes seleccionar uno o varios objetivos con los que se alinea tu %{record}"
@@ -713,6 +707,13 @@ es:
       placeholder: "Escribe las etiquetas que desees"
       remove_tag: "Eliminar"
       title: "Objetivos y Metas de la Agenda Urbana"
+    sua_goals:
+      filter:
+        heading: "Filtros por Objetivo"
+        link: "Ver %{resources} del objetivo %{code}"
+        more:
+          one: "Un objetivo más"
+          other: "%{count} objetivos más"
     targets:
       filter:
         link: "Ver %{resources} de la meta %{code}"

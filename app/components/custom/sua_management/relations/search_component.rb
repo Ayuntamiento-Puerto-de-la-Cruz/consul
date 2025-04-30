@@ -25,11 +25,11 @@ class SUAManagement::Relations::SearchComponent < ApplicationComponent
       t("admin.shared.search.advanced_filters.sua_targets.all")
     end
 
-    def goal_options
+    def sua_goal_options
       super(params[:goal_code])
     end
 
-    def target_options
+    def sua_target_options
       super(params[:target_code])
     end
 end

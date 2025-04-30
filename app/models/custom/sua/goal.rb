@@ -1,7 +1,7 @@
 class SUA::Goal < ApplicationRecord
-  include SDG::Related
+  include SUA::Related
 
-  validates :code, presence: true, uniqueness: true, inclusion: { in: 1..17 }
+  validates :code, presence: true, uniqueness: true, inclusion: { in: 1..10 }
 
   has_many :subgoals,
            class_name: 'SUA::Subgoal',

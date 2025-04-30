@@ -9,10 +9,10 @@ class SUAManagement::RelationsController < SUAManagement::BaseController
     @records = relatable_class
                .send(@current_filter)
                .accessible_by(current_ability)
-               .by_goal(params[:goal_code])
-               .by_target(params[:target_code])
                .order(:id)
                .page(params[:page])
+                .by_sua_goal(params[:sua_goal_code])
+                .by_sua_target(params[:sua_target_code])
 
     @records = @records.search(params[:search]) if params[:search].present?
   end
