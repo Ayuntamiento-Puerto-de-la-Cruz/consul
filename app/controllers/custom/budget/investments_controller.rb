@@ -1,4 +1,4 @@
-require_dependency Rails.root.join("app", "controllers", "budgets","invetments_controller").to_s
+require_dependency Rails.root.join("app", "controllers", "budgets", "investments_controller").to_s
 
 module Budgets
   class InvestmentsController

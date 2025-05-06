@@ -1,4 +1,4 @@
-require_dependency Rails.root.join("app", "controllers", "admin", "legislation", "proposals_controller").to_s
+require_dependency Rails.root.join("app", "controllers", "admin", "legislation", "processes_controller").to_s
 
 class Admin::Legislation::ProcessesController
   private
