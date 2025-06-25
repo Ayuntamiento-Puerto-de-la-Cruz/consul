@@ -6,7 +6,7 @@ class SUA::Goals::TargetsComponent < ApplicationComponent
   end
 
   def render?
-    feature?("sdg")
+    feature?("sua")
   end
 
   def subgoals
