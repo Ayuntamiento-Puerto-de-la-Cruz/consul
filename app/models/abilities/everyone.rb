@@ -30,6 +30,8 @@ module Abilities
 
       can :read, ::SDG::Goal
       can :read, ::SDG::Phase
+      can :read, ::SUA::Goal
+      can :read, ::SUA::Phase
     end
   end
 end

@@ -49,6 +49,8 @@
     },
     manage_icons: function(amsify_suggestags) {
       $(".sdg-related-list-selector .goals input").on("change", function() {
+        debugger
+
         var goal_id = this.dataset.code;
 
         if (amsify_suggestags.isPresent(goal_id)) {

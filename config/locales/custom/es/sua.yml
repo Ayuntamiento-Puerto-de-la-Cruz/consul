@@ -1,0 +1,722 @@
+es:
+  sua:
+    goals:
+      goal_1:
+        title: "Ordenar el territorio y hacer un uso racional del suelo, conservarlo y protegerlo"
+        title_in_two_lines: "Ordenar el territorio\ny hacer un uso racional del suelo"
+        description: "Ordenar el territorio y hacer un uso racional del suelo, conservarlo y protegerlo."
+        long_description: ""
+        subgoals:
+          subgoal_1_1:
+            title: "Ordenar el suelo de manera compatible con su entorno territorial"
+            targets:
+              target_1_1_1:
+                title: "Disponer de una estrategia o plan de ordenación del territorio que establezca las bases del modelo territorial."
+              target_1_1_2:
+                title: "Diseñar la ciudad de conformidad con el modelo territorial teniendo en cuenta sus características propias de clima, humedad, territorio y paisaje."
+              target_1_1_3:
+                title: "Reducir el consumo de suelo virgen, fomentando la productividad del suelo ya transformado."
+              target_1_1_4:
+                title: "Impulsar la máxima interconexión entre los ámbitos rural y urbano, favoreciendo las actividades forestales y agrícolas urbanas y periurbanas ordenadas."
+              target_1_1_5:
+                title: "Potenciar la inclusión del patrimonio natural en los catálogos municipales que formen parte de la documentación del planeamiento."
+          subgoal_1_2:
+            title: "Conservar y mejorar el patrimonio natural y cultural y proteger el paisaje"
+            targets:
+              target_1_2_6:
+                title: "Elaborar estrategias para mejorar, conservar y poner en valor el patrimonio cultural y el paisaje, desarrollando su potencial."
+              target_1_2_7:
+                title: "Adoptar medidas de conservación, mejora y protección de la naturaleza y del patrimonio natural: flora, fauna, paisaje y ecosistemas existentes."
+              target_1_2_8:
+                title: "Proteger el medio rural de acuerdo con su carácter, especialmente el suelo rural fronterizo, de borde o colindante con el suelo urbano."
+              target_1_2_9:
+                title: "Poner en marcha campañas de difusión del patrimonio cultural y natural para conseguir una auténtica cultura de pertenencia basada en el conocimiento."
+          subgoal_1_3:
+            title: "Mejorar las infraestructuras verdes y azules y vincularlas con el contexto natural"
+            targets:
+              target_1_3_10:
+                title: "Incorporar a la planificación y a la gestión urbanística el concepto de infraestructuras verdes urbanas como soluciones multifuncionales basadas en la naturaleza."
+              target_1_3_11:
+                title: "Diseñar redes de infraestructuras verdes y azules teniendo en cuenta criterios de conectividad ecológica y las características geomorfológicas del territorio."
+              target_1_3_12:
+                title: "Asignar los usos del suelo en coherencia con las características de la base territorial preexistente."
+              target_1_3_13:
+                title: "Aprovechar las vías pecuarias e incorporarlas con criterios de conectividad ecológica y como fórmula para combatir la fragmentación territorial."
+      goal_2:
+        title: "Evitar la dispersión urbana y revitalizar la ciudad existente"
+        title_in_two_lines: "Evitar la dispersión urbana\ny revitalizar la ciudad existente"
+        description: "Evitar la dispersión urbana y revitalizar la ciudad existente."
+        long_description: ""
+        subgoals:
+          subgoal_2_1:
+            title: "Definir un modelo urbano que fomente la compacidad, el equilibrio urbano y la dotación de servicios básicos"
+            targets:
+              target_2_1_14:
+                title: "Adoptar medidas mediante el planeamiento territorial y urbanístico para favorecer una ocupación y transformación del suelo con una densidad urbana adecuada."
+              target_2_1_15:
+                title: "Evaluar el coste de la expansión urbana descontrolada, incluyendo todas sus consecuencias y externalidades negativas."
+              target_2_1_16:
+                title: "Incrementar la compacidad de los tejidos urbanos propiciando, según los casos, incrementos de edificabilidad, de densidad o de reajuste de dotaciones."
+              target_2_1_17:
+                title: "Diseñar un sistema de dotaciones y equipamientos locales adecuado y equilibrado, cuantitativa y cualitativamente, teniendo en cuenta el criterio de proximidad."
+              target_2_1_18:
+                title: "Implementar medidas que permitan satisfacer a nivel de barrio las necesidades cotidianas de la población, adecuando la oferta de servicios y equipamientos."
+              target_2_1_19:
+                title: "No generalizar los equipamientos en todos los barrios, sino graduar los realmente necesarios para evitar costes económicos y medioambientales insostenibles."
+              target_2_1_20:
+                title: "Asegurar la prestación de los servicios públicos en el marco de las competencias (residencias de mayores, centros de día, guarderías, campamentos, etc.)."
+              target_2_1_21:
+                title: "Reurbanizar zonas industriales abandonadas y reedificar y reutilizar terrenos y edificios vacantes e infrautilizados."
+              target_2_1_22:
+                title: "Potenciar el uso del espacio público para la generación de energías renovables, estableciendo recomendaciones o incluso obligaciones en función de la superficie."
+              target_2_1_23:
+                title: "Evaluar, medir y gestionar las ocupaciones ilegales de suelos y edificios públicos y privados."
+              target_2_1_24:
+                title: "Poner en marcha mecanismos de coordinación y colaboración interadministrativa para mejorar la prestación de servicios (Consorcios, Mancomunidades, etc.)."
+          subgoal_2_2:
+            title: "Garantizar la complejidad funcional y diversidad de usos"
+            targets:
+              target_2_2_25:
+                title: "Asegurar con el planeamiento urbanístico una ocupación y uso del suelo eficiente combinando los usos compatibles, principalmente a escala de barrio."
+              target_2_2_26:
+                title: "Incentivar las actividades que favorecen la diversidad de usos y reservar espacio suficiente para actividades económicas y productivas."
+              target_2_2_27:
+                title: "Evitar la terciarización y la gentrificación de determinadas áreas de la ciudad equilibrando los usos residenciales con los usos terciarios."
+          subgoal_2_3:
+            title: "Mejorar la calidad y la accesibilidad universal de los espacios públicos"
+            targets:
+              target_2_3_28:
+                title: "Impulsar el espacio público como eje vertebrador de la ciudad con entornos propicios para garantizar una vida saludable a todos los sectores de la población."
+              target_2_3_29:
+                title: "Fomentar la diversidad, la calidad y la versatilidad de los espacios públicos, dotarlos de un mobiliario adecuado y polivalente, mejorar su estética y conservación."
+              target_2_3_30:
+                title: "Fomentar la cultura, el intercambio, la convivencia y el ocio urbanos, convirtiendo las calles en “plazas”, para lograr que el espacio público sea una seña de identidad."
+              target_2_3_31:
+                title: "Fomentar las medidas de intervención en los espacios públicos y edificios que reduzcan y/o eliminen los impactos negativos sobre la salud de los ciudadanos."
+              target_2_3_32:
+                title: "Activar los espacios de convivencia como fórmula para mejorar la salud psíquica de los ciudadanos y romper burbujas de soledad y de aislamiento."
+              target_2_3_33:
+                title: "Tomar en consideración la inclusión de los animales de compañía en la vida urbana, reconociendo su contribución a la salud física y mental de muchas personas."
+              target_2_3_34:
+                title: "Eliminar barreras arquitectónicas, persiguiendo la mayor autonomía de las personas con discapacidad o con movilidad reducida, mejorando la accesibilidad universal."
+              target_2_3_35:
+                title: "Asegurar el mayor confort posible del espacio público a través del control del ruido, de la contaminación del aire y de la lumínica y de las condiciones térmicas."
+              target_2_3_36:
+                title: "Liberar espacio público ocupado por el automóvil privado para convertirlo en espacio de uso múltiple, favoreciendo los usos peatonales y el comercio local."
+              target_2_3_37:
+                title: "Generar espacios públicos seguros mediante una densidad adecuada del tejido urbano y actividades que contribuyan a conseguir entornos transitados."
+              target_2_3_38:
+                title: "Avanzar en la prevención del crimen con herramientas como el refuerzo del territorio, el mantenimiento de los espacios públicos y la participación comunitaria."
+              target_2_3_39:
+                title: "Garantizar la seguridad frente a los accidentes con medidas como el diseño de calles, identificación de zonas inaccesibles, acabados de superficiales urbanas, etc."
+          subgoal_2_4:
+            title: "Mejorar el medioambiente urbano y reducir la contaminación"
+            targets:
+              target_2_4_40:
+                title: "Garantizar un hábitat saludable y seguro que permita un desarrollo cultural, social y económico pleno."
+              target_2_4_41:
+                title: "Fomentar la creación de zonas e infraestructuras verdes para favorecer la vinculación de la ciudad con la naturaleza y la continuidad física del entorno."
+              target_2_4_42:
+                title: "Definir una superficie mínima de las zonas verdes con el criterio de que un mayor porcentaje de ciudadanos tenga acceso a una zona verde de proximidad."
+              target_2_4_43:
+                title: "Fomentar actuaciones para reducir la contaminación acústica, lumínica y visual y minimizar su impacto en la salud y en la calidad de vida."
+              target_2_4_44:
+                title: "Reconvertir suelos urbanos degradados en zonas verdes y parques para contribuir a la mejora del medio ambiente urbano y a la reducción de la contaminación."
+              target_2_4_45:
+                title: "Descontaminar suelos de usos industriales en desuso y proceder a su recuperación ambiental con carácter previo a su nueva utilización como suelo urbano."
+              target_2_4_46:
+                title: "Establecer en el planeamiento distancias suficientes entre viviendas y actividades contaminantes de la atmósfera como polígonos industriales, autopistas y autovías."
+          subgoal_2_5:
+            title: "Impulsar la regeneración urbana"
+            targets:
+              target_2_5_47:
+                title: "Garantizar la regeneración urbana integrada, de forma que las operaciones físico-urbanísticas estén vinculadas con programas sociales, educativos y laborales."
+              target_2_5_48:
+                title: "Fomentar e impulsar la rehabilitación edificatoria y la regeneración urbana para lograr un equilibrio entre esta actividad y la de generación de nueva ciudad."
+              target_2_5_49:
+                title: "Promover la regeneración y la renovación urbanas y vincularlas con herramientas contra el cambio climático y con un parque de viviendas accesibles y asequibles."
+              target_2_5_50:
+                title: "Identificar posibles incrementos de valor en la edificación que puedan movilizar rehabilitaciones integrales, tanto públicas, como privadas."
+              target_2_5_51:
+                title: "Definir métodos para evaluar actuaciones de regeneración y renovación urbanas que permitan mejorar los procedimientos de activación de estas intervenciones."
+              target_2_5_52:
+                title: "Poner en marcha mecanismos para identificar sinergias entre diferentes tipos de intervención en la ciudad consolidada desde un enfoque integral y a largo plazo."
+              target_2_5_53:
+                title: "Favorecer desde las Administraciones Públicas la financiación y la viabilidad de las actuaciones de rehabilitación, regeneración y renovación urbanas."
+              target_2_5_54:
+                title: "Adoptar medidas para evitar que la renovación urbana lleve aparejados efectos colaterales de gentrificación."
+              target_2_5_55:
+                title: "Aprovechar el patrimonio cultural para realizar operaciones de regeneración urbana."
+              target_2_5_56:
+                title: "Arbitrar fórmulas de división y segregación de viviendas grandes para adaptarlas a las demandas actuales, favorecer el alquiler y evitar su degradación."
+              target_2_5_57:
+                title: "Utilizar metodologías de participación que permitan la implicación del tejido social a lo largo de estos procesos de transformación urbana."
+          subgoal_2_6:
+            title: "Mejorar la calidad y sostenibilidad de los edificios"
+            targets:
+              target_2_6_58:
+                title: "Propiciar una visión integral del entorno urbano construido, y no sólo de la edificación."
+              target_2_6_59:
+                title: "Mejorar el estado de conservación, seguridad, mantenimiento de los edificios y la habitabilidad de las viviendas."
+              target_2_6_60:
+                title: "Avanzar hacia la accesibilidad universal en los edificios públicos y privados, así como en las viviendas."
+              target_2_6_61:
+                title: "Impulsar la mejora de la eficiencia energética del parque edificatorio existente con las medidas disponibles y posibles: fiscales, simplificación trámites, campañas, etc."
+              target_2_6_62:
+                title: "Promover las Inspecciones Técnicas de Edificios o los Informes de Evaluación de los Edificios para fomentar medidas preventivas que impulsen el mantenimiento."
+              target_2_6_63:
+                title: "Potenciar la actuación integral en las intervenciones en edificios: mantenimiento, accesibilidad, eficiencia energética, etc."
+              target_2_6_64:
+                title: "Emplear técnicas constructivas eficientes que garanticen el uso de materiales adecuados para los edificios y viviendas y que faciliten la reutilización."
+              target_2_6_65:
+                title: "Impulsar el uso y la actualización del Libro del Edificio en el que consten las reparaciones y rehabilitaciones realizadas."
+              target_2_6_66:
+                title: "Impulsar medidas para garantizar la participación de técnicos y empresas de rehabilitación y reforma para un correcto diseño y ejecución de los edificios."
+      goal_3:
+        title: "Prevenir y reducir los impactos del cambio climático y mejorar la resiliencia"
+        title_in_two_lines: "Prevenir y reducir los impactos\ndel cambio climático"
+        description: "Prevenir y reducir los impactos del cambio climático y mejorar la resiliencia."
+        long_description: ""
+        subgoals:
+          subgoal_3_1:
+            title: "Adaptar el modelo territorial y urbano a los efectos del cambio climático y avanzar en su prevención"
+            targets:
+              target_3_1_67:
+                title: "Desarrollar un planeamiento sectorial, territorial y urbanístico que responda a la prevención frente a los riesgos naturales."
+              target_3_1_68:
+                title: "Incorporar mapas de riesgos naturales al planeamiento de manera que se eviten actuaciones de transformación urbana susceptibles de verse afectadas."
+              target_3_1_69:
+                title: "Incluir nuevas previsiones en los instrumentos de planeamiento relacionadas con la adaptación y mitigación de los efectos del cambio climático."
+              target_3_1_70:
+                title: "Poner en marcha planes de emergencia frente al cambio climático y, más ampliamente, planes de acción por el clima y la energía sostenible."
+              target_3_1_71:
+                title: "Fomentar las actuaciones de prevención y adaptación en aquellos suelos urbanizados susceptibles de ser afectados por riesgos naturales."
+              target_3_1_72:
+                title: "Incorporar a la planificación y a la gestión del territorio y del urbanismo el concepto de infraestructuras verdes urbanas y azules."
+              target_3_1_73:
+                title: "Reducir la isla de calor promoviendo la permeabilización y vegetación de los espacios públicos e incorporando un mapeado del clima urbano."
+              target_3_1_74:
+                title: "Poner en marcha planes y programas de reconversión industrial de industrias contaminantes para disminuir los efectos adversos para las personas y el entorno."
+              target_3_1_75:
+                title: "Trabajar mediante redes de ciudades impulsando acciones de mitigación y adaptación comunes en todos los municipios que la conformen."
+              target_3_1_76:
+                title: "Fomentar campañas de mejora de la educación y la sensibilización sobre la mitigación del cambio climático."
+              target_3_1_77:
+                title: "Fomentar la participación ciudadana y la educación a la ciudadanía como eje importante en el cuidado del medioambiente urbano."
+              target_3_1_78:
+                title: "Poner en marcha una gobernanza para la gestión del riesgo con implicación de todos los interesados (expertos, gobiernos, sector privado, sociedad civil, etc.)."
+          subgoal_3_2:
+            title: "Reducir las emisiones de gases de efecto invernadero"
+            targets:
+              target_3_2_79:
+                title: "Incentivar e impulsar un modelo urbano bajo en carbono, siguiendo las medidas y recomendaciones nacionales e internacionales."
+              target_3_2_80:
+                title: "Ordenar los usos del suelo y de la edificación teniendo en cuenta aspectos bioclimáticos de eficiencia energética y de funcionalidad."
+              target_3_2_81:
+                title: "Implementar estrategias “cero emisiones” en los entornos urbanos y periurbanos de las ciudades."
+              target_3_2_82:
+                title: "Reducir la dependencia del vehículo privado mediante el fomento de un modelo urbano compacto y complejo y los impactos de los desplazamientos motorizados."
+              target_3_2_83:
+                title: "Utilizar tecnologías limpias, materiales y productos que eliminen o minimicen las emisiones contaminantes y de gases de efecto invernadero."
+              target_3_2_84:
+                title: "Promover la renovación del parque de vehículos apostando por la hibridación y/o electrificación."
+          subgoal_3_3:
+            title: "Mejorar la resiliencia frente al cambio climático"
+            targets:
+              target_3_3_85:
+                title: "Elaborar planes de resiliencia frente al cambio climático y garantizar que sean conocidos y de fácil acceso a los ciudadanos."
+              target_3_3_86:
+                title: "Aprovechar el paisaje como oportunidad y transformar en las zonas verdes en modelos autóctonos que permitan realizar una gestión eficiente de los recursos."
+              target_3_3_87:
+                title: "Prepararse para ser resilientes, evaluando distintos escenarios y estudiando qué elementos del sistema urbano están más implicados."
+              target_3_3_88:
+                title: "Cuidar la forma espacial de la ciudad, su morfología (cañón urbano, visibilidad del cielo, etc.), aplicando criterios bioclimáticos en el diseño de los espacios abiertos."
+              target_3_3_89:
+                title: "Tener en cuenta el fenómeno “isla de calor” en la planificación y diseño de los edificios, elaborando mapas de clima urbano y aplicando soluciones bioclimáticas."
+              target_3_3_90:
+                title: "Fomentar la conservación de especies animales y vegetales autóctonas y aumentar la superficie de suelo capaz de sostener vegetación y mejorar la permeabilidad."
+              target_3_3_91:
+                title: "Desarrollar proyectos específicos de prevención de daños por inundaciones en los entornos urbanos."
+              target_3_3_92:
+                title: "Reducir la deforestación y mejorar los ecosistemas, previo análisis del estado de los ecosistemas."
+      goal_4:
+        title: "Hacer una gestión sostenible de los recursos y favorecer la economía circular"
+        title_in_two_lines: "Hacer una gestión sostenible\nde los recursos"
+        description: "Hacer una gestión sostenible de los recursos y favorecer la economía circular."
+        long_description: ""
+        subgoals:
+          subgoal_4_1:
+            title: "Ser más eficientes energéticamente y ahorrar energía"
+            targets:
+              target_4_1_93:
+                title: "Apoyar la transición energética en y de las ciudades mediante generación distribuida y el autoconsumo de energía en el ámbito urbano."
+              target_4_1_94:
+                title: "Contener e incluso reducir el gasto de energía, fomentar su ahorro y promover la eficiencia energética a través de planes, estrategias u otras medidas."
+              target_4_1_95:
+                title: "Incluir medidas de prevención y resiliencia que reduzcan al máximo los riesgos energéticos (por ejemplo, redes eléctricas que permiten el suministro alternativo)."
+              target_4_1_96:
+                title: "Incluir objetivos de descarbonización en los planes, estrategias o medidas de la Administración."
+              target_4_1_97:
+                title: "Fomentar las energías renovables térmicas, especialmente en el parque edificatorio, aprovechando su relativa baja demanda y potencial de captación solar."
+              target_4_1_98:
+                title: "Fomentar el uso compartido de redes de infraestructuras para los distintos servicios urbanos."
+              target_4_1_99:
+                title: "Fomentar el uso de la energía eléctrica en la medida en que permita contribuir a los objetivos de eficiencia energética y energías renovables."
+              target_4_1_100:
+                title: "Diseñar ordenanzas y alineaciones que propicien la ubicación inteligente de los edificios teniendo en cuenta las necesidades reales de los usuarios."
+              target_4_1_101:
+                title: "Contar con sistemas de energía resilientes que toleren las posibles perturbaciones sin cortar el suministro de energía a los consumidores."
+              target_4_1_102:
+                title: "Facilitar el autoconsumo en espacios públicos e incentivar el autoconsumo en edificios privados a través de medidas fiscales (licencias de obra, IBI, etc.)."
+              target_4_1_103:
+                title: "Fomentar la contratación de servicios energéticos en los edificios de carácter público."
+          subgoal_4_2:
+            title: "Optimizar y reducir el consumo de agua"
+            targets:
+              target_4_2_104:
+                title: "Adoptar medidas para disminuir el consumo de agua y del gasto energético y emisiones asociados a la distribución y tratamiento del recurso."
+              target_4_2_105:
+                title: "Independizar, siempre que sea posible, los recursos superficiales de agua para uso urbano de los destinados a otros usos, protegiendo las zonas de captación."
+              target_4_2_106:
+                title: "Adecuar la calidad del agua para cada uso concreto, fomentando la utilización de sistemas de aprovechamiento de aguas grises."
+              target_4_2_107:
+                title: "Fomentar la recogida selectiva, las redes separativas de saneamiento y asegurar la proximidad del usuario a dichos sistemas para favorecer esta actividad."
+              target_4_2_108:
+                title: "Construir sistemas de depuración de aguas no agresivos con el entorno. A nivel local, aplicar tratamientos que eviten la devolución del agua a la naturaleza."
+              target_4_2_109:
+                title: "Fomentar tipos edificatorios con menor demanda de agua y con sistemas de recogida y reutilización de aguas pluviales."
+              target_4_2_110:
+                title: "Utilizar sistemas de retención y filtración de aguas pluviales y fomentar los pavimentos permeables y diseños de jardinería autóctona o ahorradora de agua."
+          subgoal_4_3:
+            title: "Fomentar el ciclo de los materiales"
+            targets:
+              target_4_3_111:
+                title: "Fomentar el metabolismo urbano reduciendo en origen de residuos, la inclusión de criterios de “ciclo de vida” en el consumo de materiales, la reutilización y el reciclaje."
+              target_4_3_112:
+                title: "Fomentar el consumo responsable, las iniciativas de reparación, reutilización y.refabricación y los sistemas colaborativos y compartidos de bienes y servicios."
+              target_4_3_113:
+                title: "Fomentar el empleo de materias primas secundarias y fácilmente reciclables procedentes de entornos locales."
+              target_4_3_114:
+                title: "Adoptar medidas para separar en origen y gestionar los residuos procedentes de la construcción e incorporarlos en nuevas obras de edificación o rehabilitación."
+              target_4_3_115:
+                title: "Potenciar la producción bajo los parámetros de ecodiseño (materiales ecológicos, reutilizables y valorizables) y fomentar su consumo."
+              target_4_3_116:
+                title: "Aprobar e implantar planes de renovación de infraestructuras municipales fomentando la reutilización."
+              target_4_3_117:
+                title: "Proponer planes de actuación sobre las propias actividades a realizar en los servicios públicos."
+              target_4_3_118:
+                title: "Establecer criterios de compra pública circular en el ámbito local que permitan cerrar el ciclo de los materiales, así como en la contratación pública."
+          subgoal_4_4:
+            title: "Reducir los residuos y favorecer su reciclaje"
+            targets:
+              target_4_4_119:
+                title: "Potenciar el uso de sistemas de depósito, devolución y retorno de residuos para ahorrar recursos y reducir impactos ambientales y socioeconómicos."
+              target_4_4_120:
+                title: "Reservar desde el planeamiento las zonas más adecuadas para solucionar los problemas de recogida y tratamiento de los residuos."
+              target_4_4_121:
+                title: "Disociar generación de residuos del desarrollo económico mediante iniciativas de prevención de los residuos, uso eficaz de los recursos y consumo más sostenibles."
+              target_4_4_122:
+                title: "Gestionar los residuos para reducir su impacto, obligando al tratamiento de los mismos (sean peligrosos o no)."
+              target_4_4_123:
+                title: "Estudiar y aplicar nuevos modelos de educación ambiental para crear conciencia ambiental y sensibilidad hacia el consumo y la generación de residuos."
+      goal_5:
+        title: "Favorecer la proximidad y la movilidad sostenible"
+        title_in_two_lines: "Favorecer la proximidad\ny la movilidad sostenible"
+        description: "Favorecer la proximidad y la movilidad sostenible."
+        long_description: ""
+        subgoals:
+          subgoal_5_1:
+            title: "Favorecer la ciudad de proximidad"
+            targets:
+              target_5_1_124:
+                title: "Fomentar un modelo urbano de usos mixtos que reduzca distancias en los viajes dentro de la ciudad."
+              target_5_1_125:
+                title: "Promover la conectividad urbana y la accesibilidad universal, con patrones de proximidad entre la residencia y el trabajo, para limitar las exigencias de movilidad."
+              target_5_1_126:
+                title: "Establecer en los instrumentos de ordenación un reparto equilibrado del espacio urbano destinado a movilidad motorizada y no motorizada."
+              target_5_1_127:
+                title: "Priorizar, en la medida de lo posible, la ciudad para el peatón favoreciendo los itinerarios continuos, seguros y responsables."
+              target_5_1_128:
+                title: "Fomentar la eficacia y la calidad de los modos de transporte más económicos y al alcance de todos los grupos de edad: transporte público, bicicleta y a pie."
+              target_5_1_129:
+                title: "Implementar modelos de desarrollo urbanístico que incorporen planes de transporte público."
+              target_5_1_130:
+                title: "Fomentar cadenas metropolitanas o supramunicipales de transporte público y promover su intermodalidad."
+              target_5_1_131:
+                title: "Desarrollar redes peatonales y ciclistas, incluyendo los nuevos desarrollos urbanos, garantizando desplazamientos no motorizados seguros y en un entorno amigable."
+              target_5_1_132:
+                title: "Fomentar la elaboración de planes de transporte al trabajo en los centros de actividad económica del área urbana, así como estrategias de teletrabajo."
+              target_5_1_133:
+                title: "Establecer plataformas logísticas de distribución en cada barrio y gestionar la distribución de mercancías en las zonas urbanas."
+          subgoal_5_2:
+            title: "Potenciar modos de transporte sostenibles"
+            targets:
+              target_5_2_134:
+                title: "Adoptar medidas a través de planes de movilidad urbana sostenible (reducir viajes en transporte privado, fomentar transporte público eficiente, etc.)."
+              target_5_2_135:
+                title: "Establecer una oferta adecuada de transporte público a escala urbana y construir redes integradas que interconecten los distintos modos."
+              target_5_2_136:
+                title: "Diseñar intercambiadores de transporte que actúen como nodos de transferencia entre viajes interurbanos y urbanos."
+              target_5_2_137:
+                title: "Dotarse de una estrategia integral que incluya políticas de disuasión de vehículos contaminantes dentro de un plan más amplio que incluya otras alternativas."
+              target_5_2_138:
+                title: "Ubicar aparcamientos de disuasión en la periferia urbana, facilitando la transferencia del usuario de un vehículo privado al transporte público."
+              target_5_2_139:
+                title: "Ubicar las actividades periféricas en puntos de alta accesibilidad a los ejes de transportes y a los nodos de la red de transporte público."
+              target_5_2_140:
+                title: "Impulsar y favorecer el uso de vehículos de energías alternativas e híbridos. Implantar puntos de recarga de coches eléctricos."
+              target_5_2_141:
+                title: "Promover una visión integrada de la movilidad al servicio del ciudadano (MaaS, Mobility as a Service) y medidas que impulsen los sistemas de vehículo compartido."
+              target_5_2_142:
+                title: "Potenciar la movilidad ciclista mediante el diseño de vías exclusivas o prioritarias y aparcamientos para bicicletas."
+              target_5_2_143:
+                title: "Integrar la bicicleta con el transporte público e impulsar las iniciativas de oferta de bicicleta compartida."
+              target_5_2_144:
+                title: "Integrar las redes peatonales y ciclistas con las zonas verdes, garantizando desplazamientos no motorizados seguros y en un entorno amigable."
+              target_5_2_145:
+                title: "Garantizar la accesibilidad universal en todos los sistemas de transporte dentro del municipio."
+      goal_6:
+        title: "Fomentar la cohesión social y buscar la equidad"
+        title_in_two_lines: "Fomentar la cohesión social\ny buscar la equidad"
+        description: "Fomentar la cohesión social y buscar la equidad."
+        long_description: ""
+        subgoals:
+          subgoal_6_1:
+            title: "Reducir el riesgo de pobreza y exclusión social en entornos urbanos desfavorecidos"
+            targets:
+              target_6_1_146:
+                title: "Promover una ciudad compleja y de proximidad, basada en barrios bien equipados y seguros, bien conectados con la ciudad y el territorio."
+              target_6_1_147:
+                title: "Identificar barrios que presenten un mayor grado de vulnerabilidad social, económica y ambiental como áreas de actuación preferente."
+              target_6_1_148:
+                title: "Fomentar la renovación y regeneración urbana integrada especialmente en entornos urbanos desfavorecidos o barrios de mayor vulnerabilidad urbana."
+              target_6_1_149:
+                title: "Incluir en los planes y programas de carácter social medidas para hacer efectivo el principio de igualdad de oportunidades y de trato entre mujeres y hombres."
+              target_6_1_150:
+                title: "Fomentar la creación o mejora de servicios sociales dirigidos a personas en riesgo de exclusión y promover campañas de difusión para conocimiento ciudadano."
+              target_6_1_151:
+                title: "Promover la asequibilidad de los servicios municipales para los colectivos más vulnerables."
+              target_6_1_152:
+                title: "Promover y favorecer la actividad económica y comercial en estos entornos urbanos como medida de revitalización y de generación de empleo local."
+              target_6_1_153:
+                title: "Reducir la desigualdad, el riesgo de pobreza y la exclusión social mediante medidas que actúen sobre la segregación espacial, residencial y disimilitud."
+              target_6_1_154:
+                title: "Promover el uso del espacio público y la convivencia ciudadana como elementos de cohesión social."
+              target_6_1_155:
+                title: "Promover iniciativas comunitarias sin fines de lucro que posibiliten el uso del espacio público."
+              target_6_1_156:
+                title: "Reforzar el sentido de pertenencia a un lugar como seña de identidad y el conocimiento del entorno más próximo."
+              target_6_1_157:
+                title: "Elaborar políticas relativas a la seguridad pública y a la prevención de la delincuencia y la violencia evitando la estigmatización de colectivos vulnerables."
+              target_6_1_158:
+                title: "Adoptar medidas de prevención y lucha contra el abandono escolar en el municipio."
+              target_6_1_159:
+                title: "Actuar específicamente en la reducción de la desigualdad, el riesgo de pobreza y la exclusión social eliminando la infravivienda y el chabolismo."
+              target_6_1_160:
+                title: "Adoptar medidas de apoyo a la formación y el acceso al empleo de los colectivos vulnerables."
+          subgoal_6_2:
+            title: "Buscar la igualdad de oportunidades desde una perspectiva de género, edad y capacidad"
+            targets:
+              target_6_2_161:
+                title: "Adoptar medidas a través de planes o estrategias para garantizar la igualdad de trato y de oportunidades, el acceso al mercado de trabajo y la vida pública."
+              target_6_2_162:
+                title: "Integrar la perspectiva de género, edad y capacidad en el día a día de las ciudades, estructuras administrativas y procesos de toma de decisiones."
+              target_6_2_163:
+                title: "Adoptar medidas para la detección temprana de la vulnerabilidad o exclusión social en relación a los procesos de ocupación ilegal de suelo y edificios."
+              target_6_2_164:
+                title: "Garantizar un nivel adecuado de prestaciones sociales para las personas con discapacidad y en situación de dependencia."
+              target_6_2_165:
+                title: "Aumentar la seguridad ciudadana en los espacios urbanos adoptando las medidas adecuadas de diseño urbano (iluminación, mobiliario, etc.)."
+              target_6_2_166:
+                title: "Aumentar la dotación de parques en áreas residenciales garantizando una adecuada accesibilidad, iluminación y seguridad."
+              target_6_2_167:
+                title: "Definir itinerarios pavimentados que facilitan la accesibilidad universal, que estén adecuadamente iluminados y con superficie de sombra suficiente."
+              target_6_2_168:
+                title: "Apoyar la “movilidad del cuidado” y el mantenimiento del hogar asegurando viajes en el menor tiempo posible, franjas horarias requeridas y con coste asumible."
+              target_6_2_169:
+                title: "Fomentar el conocimiento experto en la perspectiva de género, edad y discapacidad y el urbanismo simultáneamente y difundirlo entre la ciudadanía."
+              target_6_2_170:
+                title: "Fomentar programas de voluntariado, actividades sociales, etc. que favorezcan la interrelación entre las personas que viven solas y su socialización con los vecinos."
+              target_6_2_171:
+                title: "Identificar y difundir buenas prácticas de planificación urbanística que incidan en la conciliación de la vida personal, familiar y laboral, y en la autonomía personal."
+              target_6_2_172:
+                title: "Educar para la igualdad de trato por origen racial o étnico, discapacidad, identidad sexual, orientación sexual y de género, religión, opinión u otra condición."
+              target_6_2_173:
+                title: "Fomentar la creación de actividades sociales, culturales, etc., que favorezcan la integración intercultural, desde una perspectiva educativa, social, etc."
+              target_6_2_174:
+                title: "Fomentar el asociacionismo de barrio con apoyo de la Administración Pública municipal."
+              target_6_2_175:
+                title: "Integrar el principio de igualdad de trato en la elaboración de las disposiciones normativas, así como en la definición y presupuestos de las políticas públicas."
+      goal_7:
+        title: "Impulsar y favorecer la economía urbana"
+        title_in_two_lines: "Impulsar y favorecer\nla economía urbana"
+        description: "Impulsar y favorecer la economía urbana."
+        long_description: ""
+        subgoals:
+          subgoal_7_1:
+            title: "Buscar la productividad local, la generación de empleo y la dinamización y diversificación de la actividad económica"
+            targets:
+              target_7_1_176:
+                title: "Introducir las medidas necesarias para coordinar la ordenación territorial y urbanística con la planificación sectorial de las actividades económicas."
+              target_7_1_177:
+                title: "Favorecer actuaciones que permitan diversificar la estructura productiva y generar oportunidades de empleo que garanticen la calidad de vida."
+              target_7_1_178:
+                title: "Adelantar medidas que tengan en cuenta la pérdida de empleos previsible por la robotización inminente de muchos procedimientos."
+              target_7_1_179:
+                title: "Garantizar la compatibilidad de las actividades económicas con los tejidos residenciales para generar empleo y mejorar los tejidos productivos."
+              target_7_1_180:
+                title: "Fomentar la innovación, el uso de las nuevas tecnologías y el conocimiento para lograr una actividad económica competitiva y una mayor oferta de empleo."
+              target_7_1_181:
+                title: "Fomentar el acceso a nuevos modos de consumo, el comercio electrónico y aprovechar las ventajas de la economía circular."
+              target_7_1_182:
+                title: "Favorecer las actividades económicas en el ámbito rural y la producción local, así como la alimentación de proximidad y la alimentación de temporada."
+              target_7_1_183:
+                title: "Incentivar el sector primario como recurso económico de los municipios con valores agrológicos significativos."
+              target_7_1_184:
+                title: "Potenciar la riqueza del tejido asociativo y crear una estructura de colaboración implicada en el barrio o área urbana lo más amplia posible."
+              target_7_1_185:
+                title: "Fomentar la economía social: el asociacionismo, las sociedades laborales, las cooperativas y las mutualidades que persigan intereses generales."
+              target_7_1_186:
+                title: "Generar espacios atractivos para la actividad económica y el comercio local y reservar espacios para la comercialización de productos locales."
+              target_7_1_187:
+                title: "Prever y fomentar espacios de trabajo flexibles (coworking) en el centro de las ciudades para atraer a nuevos emprendedores y abaratar el precio del alquiler."
+              target_7_1_188:
+                title: "Crear bases estadísticas municipales que permitan a las ciudades tener un mejor conocimiento de las dinámicas económicas locales."
+              target_7_1_189:
+                title: "Conseguir una estrategia de estandarización en los datos que consiga un acceso real y efectivo a la información que pueda ser relevante para los ciudadanos."
+              target_7_1_190:
+                title: "Garantizar la prestación de servicios municipales con la suficiencia financiera local a través de la elaboración y seguimiento de informes de sostenibilidad económica."
+              target_7_1_191:
+                title: "Adelantar medidas que tengan en cuenta la pérdida de empleos previsible por la cuarta revolución tecnológica, en especial, la derivada del comercio electrónico."
+              target_7_1_192:
+                title: "Fomentar la conciliación laboral y la igualdad de oportunidades en el acceso al trabajo."
+          subgoal_7_2:
+            title: "Fomentar el turismo inteligente, sostenible y de calidad y los sectores clave de la economía local"
+            targets:
+              target_7_2_193:
+                title: "Impulsar la realización de diagnósticos y planes de acción de destino turístico inteligente para la mejora de la sostenibilidad y la competitividad."
+              target_7_2_194:
+                title: "Promover la aplicación de normas públicas UNE y sistemas de distinción en materia de calidad turística (Q de Calidad, SICTED o distintivo Destino Turístico Inteligente)."
+              target_7_2_195:
+                title: "Realizar planes turísticos que tengan una visión integrada en la que se recojan acciones a largo plazo y con participación efectiva de las comunidades locales."
+              target_7_2_196:
+                title: "Impulsar el turismo urbano sostenible (gestión de flujos de visitantes, capacidad de carga, respeto al patrimonio cultural y equilibrio entre turismo y el bienestar local)."
+              target_7_2_197:
+                title: "Regenerar y reconvertir los destinos turísticos maduros para dotarlos de unos estándares de calidad actuales."
+              target_7_2_198:
+                title: "Apostar por la cultura, la gastronomía y los productos locales como recursos propios y existentes."
+              target_7_2_199:
+                title: "Desarrollar planes de marketing turístico con objetivos sobre turistas de alta rentabilidad y con un nivel cultural que permita valorar el patrimonio de la ciudad."
+              target_7_2_200:
+                title: "Disponer de oferta hacia un turismo especializado con actividades ligadas a la innovación, la creatividad y el ocio."
+      goal_8:
+        title: "Garantizar el acceso a la vivienda"
+        title_in_two_lines: "Garantizar el acceso\na la vivienda"
+        description: "Garantizar el acceso a la vivienda."
+        long_description: ""
+        subgoals:
+          subgoal_8_1:
+            title: "Fomentar la existencia de un parque de vivienda adecuado a precio asequible"
+            targets:
+              target_8_1_201:
+                title: "Asegurar que el suelo vinculado al uso residencial por el planeamiento urbanístico esté al servicio del derecho a disfrutar de una vivienda digna y adecuada."
+              target_8_1_202:
+                title: "Garantizar el derecho a la vivienda a través de viviendas de titularidad pública y medidas para poner en el mercado viviendas suficientes a precios asequibles."
+              target_8_1_203:
+                title: "Propiciar una visión integral de la vivienda como un elemento que se integra en un entorno adecuado."
+              target_8_1_204:
+                title: "Garantizar unas determinadas reservas de suelo para vivienda sujeta a algún régimen de protección pública en el propio planeamiento."
+              target_8_1_205:
+                title: "Impulsar la generación de viviendas dotacionales públicas o de viviendas sociales en las que esté garantizada la titularidad pública de forma indefinida."
+          subgoal_8_2:
+            title: "Garantizar el acceso a la vivienda, especialmente de los colectivos más vulnerables"
+            targets:
+              target_8_2_206:
+                title: "Favorecer el alquiler para equilibrar esta forma de tenencia con la vivienda en propiedad."
+              target_8_2_207:
+                title: "Mejorar la seguridad, la habitabilidad, la accesibilidad universal y la eficiencia energética de las viviendas."
+              target_8_2_208:
+                title: "Incluir a personas con discapacidad como beneficiarios específicos en los planes y programas que ayuden al acceso a una vivienda para colectivos vulnerables."
+              target_8_2_209:
+                title: "Delimitar ámbitos de tanteo y retracto en los que la Administración Pública pueda adquirir inmuebles para fomentar el alquiler social."
+              target_8_2_210:
+                title: "Avanzar en un concepto de habitabilidad adaptado a las necesidades motivadas por las nuevas configuraciones familiares y a las actuales condiciones de vida."
+          subgoal_8_3:
+            title: "Atención a colectivos vulnerables (parques y protocolos)"
+            targets:
+              target_8_3_211:
+                title: "Impulsar la creación de parques públicos y privados de vivienda que permitan atender las necesidades de las personas más vulnerables mediante el alquiler."
+              target_8_3_212:
+                title: "Potenciar la vivienda social a partir de nuevas promociones y mediante la activación e incorporación al mercado de viviendas desocupadas."
+              target_8_3_213:
+                title: "Fomentar las ayudas al alquiler y otras ayudas sociales de manera que se garantice el acceso a una vivienda a quiénes tienen mayores problemas para ello."
+              target_8_3_214:
+                title: "Fomentar e incluso exigir normativamente fondos de reserva a las comunidades de propietarios de edificios residenciales para obras de accesibilidad necesarias."
+              target_8_3_215:
+                title: "Implantar protocolos tempranos de prevención de desahucios para evitar que se produzcan sin alojamiento alternativo, con medidas de seguimiento y de evaluación."
+              target_8_3_216:
+                title: "Favorecer la consolidación de formas diversas de tenencia de la vivienda, en especial, las que ofrece y puede llegar a ofrecer el cooperativismo."
+      goal_9:
+        title: "Liderar y fomentar la innovación digital"
+        title_in_two_lines: "Liderar y fomentar\nla innovación digital"
+        description: "Liderar y fomentar la innovación digital."
+        long_description: ""
+        subgoals:
+          subgoal_9_1:
+            title: "Favorecer la sociedad del conocimiento y avanzar hacia el desarrollo de las ciudades inteligentes (Smart Cities)"
+            targets:
+              target_9_1_217:
+                title: "Promover el desarrollo de los destinos turísticos inteligentes como caso particular de las Smart Cities al servicio del desarrollo sostenible."
+              target_9_1_218:
+                title: "Adoptar medidas que favorezcan la incorporación de las nuevas tecnologías del conocimiento (Big data y Data Mining, Inteligencia Artificial) en la gestión urbana."
+              target_9_1_219:
+                title: "Impulsar la digitalización de las ciudades y de los servicios urbanos mediante modelos eficientes basados en plataformas digitales de gestión inteligente."
+              target_9_1_220:
+                title: "Facilitar el acceso a las redes de comunicaciones móviles modificando y adaptando las normativas autonómicas y locales a la nueva normativa estatal."
+              target_9_1_221:
+                title: "Impulsar el espacio público como eje vertebrador del acceso a las nuevas tecnologías por parte del ciudadano."
+          subgoal_9_2:
+            title: "Fomentar la Administración electrónica y reducir la brecha digital"
+            targets:
+              target_9_2_222:
+                title: "Fomentar el gobierno abierto y transparente (portales open data) e incentivar la participación ciudadana en los procesos de decisión que afectan a la ciudad."
+              target_9_2_223:
+                title: "Promover la existencia de portales abiertos de información en los que se pueda acceder a datos en bruto y no manipulados."
+              target_9_2_224:
+                title: "Establecer mecanismos y estrategias de jerarquización y homogeneización de la información para que sean comparables y accesibles para todos."
+              target_9_2_225:
+                title: "Aumentar los servicios de administración electrónica facilitando los procedimientos administrativos a ciudadanos y empresas."
+              target_9_2_226:
+                title: "Adoptar medidas de innovación tecnológica con aplicaciones que acerquen al ciudadano a los servicios públicos."
+              target_9_2_230:
+                title: "Disponer de estrategias de alfabetización digital (desempleados de larga duración, personas mayores, etc.) para reducir la brecha digital."
+              target_9_2_231:
+                title: "Mejorar la formación especializada en estas materias, tanto por parte de los empleados públicos como de la sociedad en general."
+      goal_10:
+        title: "Mejorar los instrumentos de intervención y la gobernanza"
+        title_in_two_lines: "Mejorar los instrumentos de\nintervención y la gobernanza"
+        description: "Mejorar los instrumentos de intervención y la gobernanza."
+        long_description: ""
+        subgoals:
+          subgoal_10_1:
+            title: "Lograr un marco normativo y de planeamiento actualizado, flexible y simplificado que mejore, también, la gestión"
+            targets:
+              target_10_1_232:
+                title: "Simplificar el marco normativo existente y garantizar su estabilidad, siendo útil un pacto sobre los grandes objetivos de la planificación territorial y urbanística."
+              target_10_1_233:
+                title: "Generar un marco normativo que promueva una integración adecuada de la tramitación ambiental y la de los planes urbanísticos o territoriales."
+              target_10_1_234:
+                title: "Remitir a desarrollo reglamentario todo lo que pueda dificultar en extremo la aplicación de la norma legal."
+              target_10_1_235:
+                title: "Mejorar el planeamiento urbanístico, dotando de carácter estratégico a los PGO y remitiendo la ordenación pormenorizada al planeamiento de desarrollo."
+              target_10_1_236:
+                title: "Recuperar el papel de la planificación como instrumento para conseguir que las ciudades sean espacios de redistribución e inclusión."
+              target_10_1_237:
+                title: "Agilizar y unificar procedimientos de tramitación y aprobación de los instrumentos de planeamiento y flexibilizar y hacer más ágil la gestión urbanística."
+              target_10_1_238:
+                title: "Garantizar una adecuada integración de los aspectos sectoriales en la planificación territorial y urbanística."
+              target_10_1_239:
+                title: "Elaborar guías o catálogos de los informes sectoriales que se requieren para poder tramitar y aprobar los instrumentos de planeamiento."
+              target_10_1_240:
+                title: "Garantizar en los instrumentos de planeamiento un tratamiento adaptado a los objetivos de la Agenda Urbana Española."
+              target_10_1_241:
+                title: "Disponer de Ordenanzas municipales compatibles con la normativa estatal y autonómica y que permitan aplicarlas sin lagunas ni problemas interpretativos."
+              target_10_1_242:
+                title: "Crear instrumentos adecuados para la intervención en las áreas consolidadas mediante operaciones de rehabilitación, regeneración y renovación urbanas."
+          subgoal_10_2:
+            title: "Asegurar la participación ciudadana, la transparencia y favorecer la gobernanza multinivel"
+            targets:
+              target_10_2_243:
+                title: "Fomentar la gobernanza multinivel entre el planeamiento territorial y el urbanístico mediante fórmulas de coordinación y colaboración interadministrativa."
+              target_10_2_244:
+                title: "Buscar el reequilibrio interno de las ciudades con una gestión adecuada del territorio y de las personas."
+              target_10_2_245:
+                title: "Fortalecer los mecanismos e instituciones jurídicas de colaboración público-privada y la coproducción de políticas públicas."
+              target_10_2_246:
+                title: "Buscar la mayor eficacia y eficiencia de las Administraciones Públicas evitando las duplicidades entre ellas y las disfunciones."
+              target_10_2_247:
+                title: "Potenciar los instrumentos de colaboración horizontal y de carácter sectorial para conseguir una visión de conjunto que optimice el uso de los recursos."
+              target_10_2_248:
+                title: "Garantizar un procedimiento participativo abierto que sea previo al procedimiento formal de elaboración de los instrumentos de ordenación territorial y urbanística."
+              target_10_2_249:
+                title: "Fomentar la participación en el diseño, seguimiento y evaluación de políticas públicas, en donde la accesibilidad a la información es clave."
+              target_10_2_250:
+                title: "Integrar la participación en el planeamiento durante todo el proceso y más allá de los trámites obligatorios de información al público y alegaciones."
+              target_10_2_251:
+                title: "Impulsar los presupuestos participativos para la toma de decisiones en los gobiernos locales."
+              target_10_2_252:
+                title: "Fomentar la transparencia y los datos abiertos en la planificación y en la gestión de los asuntos públicos, así como la rendición de cuentas de la actuación pública."
+              target_10_2_253:
+                title: "Impulsar la creación de oficinas permanentes que faciliten información sobre la ciudad, su funcionamiento y su gestión."
+              target_10_2_254:
+                title: "Elaborar guías de funcionamiento de la ciudad accesibles a través de las nuevas tecnologías."
+              target_10_2_255:
+                title: "Elaborar mapas de información de la ciudad que permitan cruzar los datos de los servicios ofrecidos, análisis y poder introducir mejoras e identificar patrones."
+              target_10_2_256:
+                title: "Crear bases estadísticas municipales que permitan a las ciudades tener un mejor conocimiento de las dinámicas económicas locales."
+          subgoal_10_3:
+            title: "Impulsar la capacitación local y mejorar la financiación"
+            targets:
+              target_10_3_257:
+                title: "Garantizar el adecuado conocimiento de todos los programas y líneas de ayudas públicas al servicio de los objetivos de la Agenda Urbana Española."
+              target_10_3_258:
+                title: "Vincular la obtención de financiación pública al cumplimiento de lo previsto en la agenda urbana."
+              target_10_3_259:
+                title: "Mejorar la financiación de las políticas y los servicios que necesariamente se deben prestar."
+              target_10_3_260:
+                title: "Relacionar los presupuestos municipales con el cumplimiento de los objetivos de la agenda urbana."
+              target_10_3_261:
+                title: "Resolver los déficits de recursos técnicos y humanos para la implementación de la agenda urbana."
+              target_10_3_262:
+                title: "Fomentar el mecenazgo como medio de financiación privada de iniciativas y proyectos para fines de interés general."
+              target_10_3_263:
+                title: "Fomentar la microfinanciación como medio de financiación colectiva de iniciativas y proyectos."
+              target_10_3_264:
+                title: "Fomentar e impulsar la investigación urbana y urbanística en la Administración Local."
+              target_10_3_265:
+                title: "Fomentar los cursos y programas de formación relacionados con las agendas urbanas para los técnicos responsables de llevar a cabo su implementación."
+          subgoal_10_4:
+            title: "Diseñar y poner en marcha campañas de formación y sensibilización en materia urbana, así como de intercambio y difusión del conocimiento"
+            targets:
+              target_10_4_266:
+                title: "Fomentar la educación, formación y sensibilización en materia de urbanismo y, especialmente, en la cultura de la conservación, mantenimiento y rehabilitación."
+              target_10_4_267:
+                title: "Crear estructuras estables de información con sedes físicas para educar en el funcionamiento de la ciudad y ayuden a generar una cultura de participación."
+              target_10_4_268:
+                title: "Realizar labores didácticas que acerquen los instrumentos de ordenación territorial y urbanística a los ciudadanos."
+              target_10_4_269:
+                title: "Elaborar materiales divulgativos específicos sobre el desarrollo urbano, las ciudades, su vinculación con los ODS y la urbanidad."
+              target_10_4_270:
+                title: "Desarrollar cursos, talleres y debates de urbanismo en colaboración con la universidad, colegios profesionales y el sector privado."
+              target_10_4_271:
+                title: "Fomentar el diálogo civil mediante la participación en la elaboración, ejecución, seguimiento y evaluación de las políticas públicas que les afectan."
+              target_10_4_272:
+                title: "Fomentar las experiencias basadas en la transferencia de proyectos piloto exitosos en otros lugares."
+      show:
+        read_more: "Leer más sobre %{goal}"
+        read_less: "Leer menos sobre %{goal}"
+        targets:
+          no_local_targets: Este objetivo no tiene metas localizadas
+      title: "Agenda Urbana Puerto de La Cruz 2030"
+    related_list_selector:
+      goal_identifier: "Agenda Urbana %{code}"
+      goal_list: "Puedes seleccionar uno o varios objetivos con los que se alinea tu %{record}"
+      help:
+        title: "¿Qué objetivos y metas se alinean con mi %{record}?"
+      hint: "Puedes introducir el código de un objetivo/meta específico o un texto para encontrar uno"
+      placeholder: "Escribe las etiquetas que desees"
+      remove_tag: "Eliminar"
+      title: "Objetivos y Metas de la Agenda Urbana"
+    sua_goals:
+      filter:
+        heading: "Filtros por Objetivo"
+        link: "Ver %{resources} del objetivo %{code}"
+        more:
+          one: "Un objetivo más"
+          other: "%{count} objetivos más"
+    targets:
+      filter:
+        link: "Ver %{resources} de la meta %{code}"
+        more:
+          one: "Una meta más"
+          other: "%{count} metas más"

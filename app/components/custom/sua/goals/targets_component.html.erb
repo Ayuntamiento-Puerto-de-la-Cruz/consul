@@ -1,0 +1,18 @@
+<section class="targets">
+  <% subgoals.each do |subgoal| %>
+    <h3 class="subgoal-header">
+      <span class="subgoal-code"><%= subgoal.code %></span>&nbsp;
+      <span class="subgoal-title"><%= subgoal.title %></span>
+    </h3>
+
+    <% targets = targets_for(subgoal) %>
+    <div class="tabs-panel is-active">
+        <dl>
+          <% targets.each do |target| %>
+            <dt><%= target.code %></dt>
+            <dd><%= target.title %></dd>
+          <% end %>
+        </dl>
+    </div>
+  <% end %>
+</section>

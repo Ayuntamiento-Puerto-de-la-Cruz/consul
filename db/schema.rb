@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_23_100638) do
+ActiveRecord::Schema.define(version: 2025_04_28_115426) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_trgm"
@@ -286,6 +286,7 @@ ActiveRecord::Schema.define(version: 2021_01_23_100638) do
     t.datetime "updated_at", null: false
     t.text "description"
     t.text "summary"
+    t.string "name"
     t.index ["budget_phase_id"], name: "index_budget_phase_translations_on_budget_phase_id"
     t.index ["locale"], name: "index_budget_phase_translations_on_locale"
   end
@@ -360,6 +361,7 @@ ActiveRecord::Schema.define(version: 2021_01_23_100638) do
     t.text "description_publishing_prices"
     t.text "description_informing"
     t.string "voting_style", default: "knapsack"
+    t.boolean "published"
   end
 
   create_table "campaigns", id: :serial, force: :cascade do |t|
@@ -1449,6 +1451,65 @@ ActiveRecord::Schema.define(version: 2021_01_23_100638) do
     t.index ["process_type", "process_id"], name: "index_stats_versions_on_process_type_and_process_id"
   end
 
+  create_table "sua_goals", force: :cascade do |t|
+    t.integer "code", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["code"], name: "index_sua_goals_on_code", unique: true
+  end
+
+  create_table "sua_managers", force: :cascade do |t|
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_sua_managers_on_user_id", unique: true
+  end
+
+  create_table "sua_phases", force: :cascade do |t|
+    t.integer "kind", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["kind"], name: "index_sua_phases_on_kind", unique: true
+  end
+
+  create_table "sua_relations", force: :cascade do |t|
+    t.string "related_sua_type"
+    t.bigint "related_sua_id"
+    t.string "relatable_type"
+    t.bigint "relatable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["relatable_type", "relatable_id"], name: "index_sua_relations_on_relatable_type_and_relatable_id"
+    t.index ["related_sua_id", "related_sua_type", "relatable_id", "relatable_type"], name: "sua_relations_unique", unique: true
+    t.index ["related_sua_type", "related_sua_id"], name: "index_sua_relations_on_related_sua_type_and_related_sua_id"
+  end
+
+  create_table "sua_reviews", force: :cascade do |t|
+    t.string "relatable_type"
+    t.bigint "relatable_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["relatable_type", "relatable_id"], name: "index_sua_reviews_on_relatable_type_and_relatable_id", unique: true
+  end
+
+  create_table "sua_subgoals", force: :cascade do |t|
+    t.bigint "sua_goal_id"
+    t.string "code", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["code"], name: "index_sua_subgoals_on_code", unique: true
+    t.index ["sua_goal_id"], name: "index_sua_subgoals_on_sua_goal_id"
+  end
+
+  create_table "sua_targets", force: :cascade do |t|
+    t.bigint "sua_subgoal_id"
+    t.string "code", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["code"], name: "index_sua_targets_on_code", unique: true
+    t.index ["sua_subgoal_id"], name: "index_sua_targets_on_sua_subgoal_id"
+  end
+
   create_table "taggings", id: :serial, force: :cascade do |t|
     t.integer "tag_id"
     t.string "taggable_type"
@@ -1722,6 +1783,7 @@ ActiveRecord::Schema.define(version: 2021_01_23_100638) do
   add_foreign_key "related_content_scores", "related_contents"
   add_foreign_key "related_content_scores", "users"
   add_foreign_key "sdg_managers", "users"
+  add_foreign_key "sua_managers", "users"
   add_foreign_key "users", "geozones"
   add_foreign_key "valuators", "users"
 end

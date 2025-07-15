@@ -259,6 +259,7 @@ es:
         notifications: Notificaciones
         no_notifications: "No tienes notificaciones nuevas"
       sdg: "ODS"
+      sua: "AU"
   notifications:
     index:
       empty_notifications: No tienes notificaciones nuevas.
@@ -704,9 +705,13 @@ es:
       general_placeholder: "Escribe el texto"
       goal: "Por ODS"
       goal_blank: "Elige un objetivo"
+      sua_goal: "Por AU"
+      sua_goal_blank: "Elige un objetivo"
       search: "Filtrar"
       target: "Por meta"
       target_blank: "Elige una meta"
+      sua_target: "Por AU meta"
+      sua_target_blank: "Elige una meta"
       title: "Búsqueda avanzada"
       to: "Hasta"
     author_info:

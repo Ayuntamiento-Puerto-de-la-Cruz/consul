@@ -4,6 +4,7 @@
     <strong><%= link_to proposal.title, url_for(proposal) %></strong><br>
     <p><%= proposal.summary %></p>
     <%= render SDG::TagListComponent.new(proposal, limit: 5) %>
+    <%= render SUA::TagListComponent.new(proposal, limit: 5) %>
   </div>
 
   <% if proposal.image.present? %>

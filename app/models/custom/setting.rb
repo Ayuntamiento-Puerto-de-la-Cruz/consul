@@ -1,6 +1,17 @@
 require_dependency Rails.root.join("app", "models", "setting").to_s
 
 class Setting
+  
+  def type
+    if %w[feature process proposals map html homepage uploads sdg sua].include? prefix
+      prefix
+    elsif %w[remote_census].include? prefix
+      key.rpartition(".").first
+    else
+      "configuration"
+    end
+  end
+
   class << self
     def defaults
       {
@@ -27,6 +38,7 @@ class Setting
         "feature.valuation_comment_notification": true,
         "feature.graphql_api": true,
         "feature.sdg": false,
+        "feature.sua": false,
         "homepage.widgets.feeds.debates": true,
         "homepage.widgets.feeds.processes": true,
         "homepage.widgets.feeds.proposals": true,
@@ -116,7 +128,12 @@ class Setting
         "sdg.process.proposals": false,
         "sdg.process.polls": false,
         "sdg.process.budgets": false,
-        "sdg.process.legislation": false
+        "sdg.process.legislation": false,
+        "sua.process.debates": false,
+        "sua.process.proposals": false,
+        "sua.process.polls": false,
+        "sua.process.budgets": false,
+        "sua.process.legislation": false
       }
     end
   end

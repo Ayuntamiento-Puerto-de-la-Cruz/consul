@@ -1,0 +1,7 @@
+<%= header %>
+
+<%= form_for record, url: update_path, html: { class: "sua-relations-edit" } do |f| %>
+  <%= render SUA::RelatedListSelectorComponent.new(f) %>
+
+  <%= f.submit %>
+<% end %>

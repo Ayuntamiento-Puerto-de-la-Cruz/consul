@@ -16,6 +16,7 @@ class User < ApplicationRecord
   has_one :valuator
   has_one :manager
   has_one :sdg_manager, class_name: "SDG::Manager", dependent: :destroy
+  has_one :sua_manager, class_name: "SUA::Manager", dependent: :destroy
   has_one :poll_officer, class_name: "Poll::Officer"
   has_one :organization
   has_one :lock
@@ -202,6 +203,11 @@ class User < ApplicationRecord
   def sdg_manager?
     sdg_manager.present?
   end
+
+  def sua_manager?
+    sua_manager.present?
+  end
+
 
   def poll_officer?
     poll_officer.present?
