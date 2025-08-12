@@ -1,16 +1,17 @@
 require "rails_helper"
 
-describe CensusCaller, :skip do
+describe CensusCaller do
   let(:api) { CensusCaller.new }
 
   describe "#call" do
     let(:valid_body) do
-      { get_habita_datos_response: {
-        get_habita_datos_return: { datos_habitante: { item: { fecha_nacimiento_string: "1-1-1980" }}}
-      }}
+      { habitante: {
+        fechanacim: "1980-01-01T00:00:00",
+        tiene_errores: false }}
     end
     let(:invalid_body) do
-      { get_habita_datos_response: { get_habita_datos_return: { datos_habitante: {}}}}
+      { habitante: {
+          tiene_errores: true }}
     end
 
     it "returns invalid response when document_number or document_type are empty" do
@@ -45,8 +46,8 @@ describe CensusCaller, :skip do
     end
 
     describe "RemoteCensusApi", :remote_census do
-      let(:valid_body) { { response: { data: { document_number: "12345678" }}} }
-      let(:invalid_body) { { response: { data: {}}} }
+      let(:valid_body) { { existe_padron_response: { existe_padron_result: "SI" }} }
+      let(:invalid_body) { { existe_padron_response: { existe_padron_result: "NO" }} }
 
       it "returns remote census api response when it's available and response is valid" do
         remote_census_api_response = RemoteCensusApi::Response.new(valid_body)
