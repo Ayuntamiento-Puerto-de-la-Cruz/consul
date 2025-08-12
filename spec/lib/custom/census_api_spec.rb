@@ -1,22 +1,17 @@
 require "rails_helper"
 
-describe CensusApi, :skip do
+describe CensusApi do
   let(:api) { CensusApi.new }
 
   describe "#call" do
-    let(:invalid_body) { { get_habita_datos_response: { get_habita_datos_return: { datos_habitante: {}}}} }
     let(:valid_body) do
-      {
-        get_habita_datos_response: {
-          get_habita_datos_return: {
-            datos_habitante: {
-              item: {
-                fecha_nacimiento_string: "1-1-1980"
-              }
-            }
-          }
-        }
-      }
+      { habitante: {
+        fechanacim: "1980-01-01T00:00:00",
+        tiene_errores: false }}
+    end
+    let(:invalid_body) do
+      { habitante: {
+          tiene_errores: true }}
     end
 
     it "returns the response for the first valid variant" do

@@ -6,7 +6,7 @@ describe Verification::Residence do
   describe "verification" do
     describe "postal code" do
       it "is valid with postal code 38400" do
-        residence.postal_code =  "38400"
+        residence.postal_code = "38400"
         residence.valid?
         expect(residence.errors[:postal_code]).to be_empty
       end
