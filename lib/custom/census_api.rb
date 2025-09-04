@@ -1,6 +1,8 @@
 require_dependency Rails.root.join("lib", "census_api").to_s
 
 class CensusApi
+  attr_accessor :req_document_type
+
   def initialize
     @auth_token = nil
     @base_url = Rails.application.secrets.census_api_end_point
@@ -8,9 +10,23 @@ class CensusApi
     @habitante_url = "#{@base_url}/padron/api/habitante/GetPorDocumento"
   end
 
+  def call(document_type, document_number)
+    response = nil
+    get_document_number_variants(document_type, document_number).detect do |variant|
+      response = Response.new(get_response_body(document_type, variant), document_type)
+      return response if response.valid?
+    end
+    response.valid? ? response : Response.new(invalid_response, document_type)
+  end
+
   class Response
+    def initialize(body, req_document_type)
+      @body = body
+      @req_document_type = req_document_type
+    end
+
     def valid?
-      return false if data[:tiene_errores]
+      return false if citizen_not_found || !correct_document_type
 
       data[:fechabaja].blank?
     end
@@ -41,6 +57,16 @@ class CensusApi
 
       def data
         @body[:habitante]
+      end
+
+      def correct_document_type
+        data[:tipodocu] == @req_document_type ||
+          (data[:tipodocu] == "3" && @req_document_type == "4")
+      end
+
+      def citizen_not_found
+        data[:tiene_errores] ||
+          data[:mensaje_original] == 'No existe el habitante especificado en el padrón'
       end
   end
 
@@ -84,11 +110,10 @@ class CensusApi
       request["Accept"] = "*/*"
 
       response = http.request(request)
-
       if response.code == "200"
         JSON.parse(response.body, symbolize_names: true)
       else
-        invalid_response
+        Response.new(invalid_response, document_type)
       end
     end
 
@@ -104,7 +129,7 @@ class CensusApi
     end
 
     def stubbed_invalid_response
-      invalid_response
+      Response.new(invalid_response, @req_document_type)
     end
 
     def stubbed_valid_response
@@ -132,7 +157,8 @@ class CensusApi
           nombrecompleto: "GALA VAZQUEZ CARRILERO",
           domicilio: "Dist: 01 Secc: 004 CALLE GENERAL WEYLER     2 , Piso: P01, Pta: 0003",
           bfechabaja: false,
-          tiene_errores: false
+          tiene_errores: false,
+          mensaje_original: 'Ok'
         },
         lastmovimiento: {},
         vivienda: {},
@@ -174,7 +200,8 @@ class CensusApi
           nombrecompleto: nil,
           domicilio: nil,
           bfechabaja: false,
-          tiene_errores: true
+          tiene_errores: true,
+          mensaje_original: 'No existe el habitante especificado en el padrón'
         },
         lastmovimiento: {},
         vivienda: {},
