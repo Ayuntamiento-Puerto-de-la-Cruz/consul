@@ -1,3 +1,6 @@
+
+I18n.available_locales = [:es, :en]
+
 unless Rails.env.test?
   require "database_cleaner"
   DatabaseCleaner.clean_with :truncation
