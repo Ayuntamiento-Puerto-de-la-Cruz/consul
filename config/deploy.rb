@@ -7,7 +7,7 @@ def deploysecret(key)
 end
 
 set :rails_env, fetch(:stage)
-set :rvm1_map_bins, -> { fetch(:rvm_map_bins).to_a.concat(%w[rake gem bundle ruby]).uniq }
+# set :rvm1_map_bins, -> { fetch(:rvm_map_bins).to_a.concat(%w[rake gem bundle ruby]).uniq }
 
 set :application, "consul"
 set :deploy_to, deploysecret(:deploy_to)
@@ -21,7 +21,7 @@ set :log_level, :info
 set :pty, true
 set :use_sudo, false
 
-set :linked_files, %w[config/database.yml config/secrets.yml]
+set :linked_files, %w[config/database.yml config/secrets.yml .tool-versions]
 set :linked_dirs, %w[.bundle log tmp public/system public/assets public/ckeditor_assets]
 
 set :keep_releases, 5
@@ -39,8 +39,8 @@ namespace :deploy do
   Rake::Task["delayed_job:default"].clear_actions
   Rake::Task["puma:smart_restart"].clear_actions
 
-  after :updating, "rvm1:install:rvm"
-  after :updating, "rvm1:install:ruby"
+  # after :updating, "rvm1:install:rvm"
+  # after :updating, "rvm1:install:ruby"
 
   after "deploy:migrate", "add_new_settings"
 
